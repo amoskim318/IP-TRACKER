@@ -17,7 +17,7 @@ function logo() {
 
 
    \033[01;37m}\033[01;31m----------------------------------------\033[01;37m{
-}\033[01;31m-------------- \033[01;32mTrack IPLocation\033[01;31m --------------\033[01;37m{
+}\033[01;31m-------------- \033[01;32mTrack IPLocation By Amos kim and TOP BOY\033[01;31m --------------\033[01;37m{
    }\033[01;31m----------------------------------------\033[01;37m{
 
 \033[00m
@@ -29,7 +29,7 @@ function upd() {
   echo "\n\033[01;32mUpdating IP-Tracer.........\033[01;37m\n\n";
   sleep(1);
   system("cd ~/ && git clone https://github.com/rajkumardusad/IP-Tracer.git");
-  system("cd ~/ && sudo git clone https://github.com/rajkumardusad/IP-Tracer.git");
+  system("cd ~/ && sudo git clone https://github.com/amoskim318/IP-TRACKER.git");
   system("cd ~/IP-Tracer && sh install");
   logo();
   echo "\n\033[01;32m              IP-Tracer updated !!!\033[01;37m\n";
